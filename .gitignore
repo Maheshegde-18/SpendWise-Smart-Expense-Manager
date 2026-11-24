@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+server/node_modules/
+
+# Production builds
+dist/
+build/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Test coverage & logs
+coverage/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# IDE & editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Unrelated local CLI metadata
+.sf/
+
+# Local report/diagram generator scripts & intermediate artifacts
+# (contain local machine paths; final reports live in docs/project-report/)
+build_spendwise_report.py
+build_spendwise_revised_report.py
+generate_diagrams.py
+generate_revised_report.py
+SpendWise_Report_Compiled.html
+Project_Diagrams/
+/SpendWise_Mini_Project_Report.docx
+/SpendWise_Mini_Project_Report.pdf
+/SpendWise_Mini_Project_Report_Revised.pdf
